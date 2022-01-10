@@ -24,33 +24,27 @@ public class Dialogue : MonoBehaviour
 
         //NPC
         dialogue.Add("CharacterA", new string[] {
-            "Hi there!",
-            "I'm an NPC! This conversation is called 'npcA'...",
-            "If you go and find me 80 coins, my dialogue will move on to 'npcB'!",
-            "Feel free to edit my dialogue in the 'Dialogue.cs' file!",
-            "To keep it simple, you can also ask me one, and only one, question...",
-            "...Like you just did! And I'll just move on to the next sentence.",
-            "I'll answer that question, but it won't change much about the game!",
-            "You can always tweak the 'DialogueBox.cs' script to add more functionality!"
+            "Ciao Elliot!",
+            "Davvero non ricordi chi sono?...",
+            "E va bene.. se mi procurerai 20 monete ti forniro' piu' info.."
         });
 
         dialogue.Add("CharacterAChoice1", new string[] {
+            "Ciao",
             "",
-            "",
-            "Let me go find some coins!",
+            ""
         });
 
         dialogue.Add("CharacterAChoice2", new string[] {
-            "",
-            "",
-            "What else can you do?"
+            "Scusa ma chi sei?",
+            "...",
+            ""
         });
 
         dialogue.Add("CharacterB", new string[] {
-            "Hey! You found 80 coins! That means 'npcB' is now being used inside 'Dialogue.cs'!",
-            "After my dialogue completes, I'll take 80 coins, or however many you specify in the inspector...",
-            "And I'll also give you a new ability!",
-            "In this case, how about a generic DOWNWARD SMASH? Simply attack while pressing down in mid-air!"
+            "Sono io депрессия!",
+            "Il tuo caro amico...",
+            "Quello che ti sta accompagnando da tanto tempo, più avanzi e più ricorderai..."
         });
     }
 }

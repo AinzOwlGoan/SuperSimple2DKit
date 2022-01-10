@@ -136,12 +136,13 @@ public class DialogueBoxController : MonoBehaviour
 
         nameMesh.text = characterName;
         characterDiologue = dialogue.dialogue[fileName];
-
+        // prima scelta, quindi nel primo caso solo "ciao"
         if (dialogue.dialogue.ContainsKey(fileName + "Choice1"))
         {
             choiceDiologue = dialogue.dialogue[fileName + "Choice1"];
             choiceLocation = GetChoiceLocation();
         }
+        // altra scelta, continuo dialogo
         else
         {
             choiceLocation = characterDiologue.Length - 1;
